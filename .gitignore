@@ -1,0 +1,6 @@
+build/
+dist/
+app/.build/
+core/target/
+windows/target/
+.DS_Store

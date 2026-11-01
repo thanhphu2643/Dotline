@@ -1,0 +1,5 @@
+module CDotline [system] {
+    header "dotline.h"
+    link "dotline_core"
+    export *
+}
