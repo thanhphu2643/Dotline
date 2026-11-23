@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="act_report_xml_view_dotline" model="ir.ui.view">
+        <field name="name">ir.actions.report.form.dotline</field>
+        <field name="model">ir.actions.report</field>
+        <field name="inherit_id" ref="base.act_report_xml_view"/>
+        <field name="arch" type="xml">
+            <field name="report_type" position="after">
+                <field name="dotline_print" attrs="{'invisible': [('report_type', '!=', 'qweb-text')]}"/>
+            </field>
+        </field>
+    </record>
+</odoo>

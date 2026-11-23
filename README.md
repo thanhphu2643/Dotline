@@ -27,6 +27,12 @@ SmartScreen shows a warning.
 Data lives in `~/Library/Application Support/Dotline/`: `config.json` (port + token, mode 0600),
 `jobs.json` (last 500 jobs) and `payloads/` (bytes for previews).
 
+## Odoo
+
+`odoo/dotline_label` is an Odoo 16 module that sends Odoo's built-in ZPL labels
+(products, lots, packages, the Print Labels wizard) to Dotline instead of downloading a
+file. See [its README](odoo/dotline_label/README.md).
+
 ## HTTP API
 
 Every route except `/health` requires `Authorization: Bearer <token>` (copy it from the app).

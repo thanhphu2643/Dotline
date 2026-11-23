@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Odoo's built-in ZPL labels print through Dotline out of the box. -->
+    <record id="stock.label_product_product" model="ir.actions.report">
+        <field name="dotline_print" eval="True"/>
+    </record>
+    <record id="stock.label_lot_template" model="ir.actions.report">
+        <field name="dotline_print" eval="True"/>
+    </record>
+    <record id="stock.label_package_template" model="ir.actions.report">
+        <field name="dotline_print" eval="True"/>
+    </record>
+    <record id="stock.label_product_packaging" model="ir.actions.report">
+        <field name="dotline_print" eval="True"/>
+    </record>
+    <record id="stock.label_picking_type" model="ir.actions.report">
+        <field name="dotline_print" eval="True"/>
+    </record>
+</odoo>

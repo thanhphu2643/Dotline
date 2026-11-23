@@ -4,3 +4,4 @@ app/.build/
 core/target/
 windows/target/
 .DS_Store
+__pycache__/
